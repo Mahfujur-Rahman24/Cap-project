@@ -5,7 +5,7 @@
     }
 
     body {
-      background-image: url('/images/depositphotos_325837802-stock-photo-man-writing-in-office-cloud.jpg');
+      background-image: url('../images/depositphotos_325837802-stock-photo-man-writing-in-office-cloud.jpg');
       background-size: cover;
       background-position: center;
       min-height: 100%;
