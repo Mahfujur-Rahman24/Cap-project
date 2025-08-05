@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillTrack | HR Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style/style.css">
+  <script>
+    function toggleOverview() {
+      const list = document.getElementById('employeeList');
+      list.style.display = list.style.display === 'flex' ? 'none' : 'flex';
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="../images/Logo.png" alt="SkillTrack Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#view">View Employees</a></li>
+        <li><a href="#upload">Upload Module</a></li>
+        <li><a href="#edit">Edit Module</a></li>
+        <li><a href="#certify">Generate Certificate</a></li>
+        <li><button><a href="/main1/index2.html">Log Out</a></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" id="view">
+      <h2>Employee Overview</h2>
+      <div class="overview-toggle" onclick="toggleOverview()">Click to Show All Employees</div>
+      <div class="employee-list" id="employeeList">
+        <div class="employee-card">
+          <h3> Bappy Hossain</h3>
+          <p>Tasks Completed: 10 / 12</p>
+          <p>Quiz Score: 97%</p>
+          <p>Skill Level: Intermediate</p>
+        </div>
+        <div class="employee-card">
+          <h3>Anamul Siam</h3>
+          <p>Tasks Completed: 8 / 12</p>
+          <p>Quiz Score: 92%</p>
+          <p>Skill Level: Advanced</p>
+        </div>
+        <div class="employee-card">
+          <h3>Hasanul Hasan</h3>
+          <p>Tasks Completed: 9 / 12</p>
+          <p>Quiz Score: 85%</p>
+          <p>Skill Level: Intermediate</p>
+        </div>
+        <div class="employee-card">
+          <h3> Jannat Akter</h3>
+          <p>Tasks Completed: 11 / 12</p>
+          <p>Quiz Score: 90%</p>
+          <p>Skill Level: Advanced</p>
+        </div>
+        <div class="employee-card">
+          <h3> Imran Hossain</h3>
+          <p>Tasks Completed: 6 / 12</p>
+          <p>Quiz Score: 72%</p>
+          <p>Skill Level: Beginner</p>
+        </div>
+        <div class="employee-card">
+          <h3> Fariha Islam</h3>
+          <p>Tasks Completed: 7 / 12</p>
+          <p>Quiz Score: 80%</p>
+          <p>Skill Level: Intermediate</p>
+        </div>
+        <div class="employee-card">
+          <h3> Rahim Uddin</h3>
+          <p>Tasks Completed: 10 / 12</p>
+          <p>Quiz Score: 82%</p>
+          <p>Skill Level: Intermediate</p>
+        </div>
+        <div class="employee-card">
+          <h3> Sumaiya Ahmed</h3>
+          <p>Tasks Completed: 12 / 12</p>
+          <p>Quiz Score: 94%</p>
+          <p>Skill Level: Advanced</p>
+        </div>
+        <div class="employee-card">
+          <h3> Shanto Mia</h3>
+          <p>Tasks Completed: 5 / 12</p>
+          <p>Quiz Score: 60%</p>
+          <p>Skill Level: Beginner</p>
+        </div>
+        <div class="employee-card">
+          <h3> Nazia Zaman</h3>
+          <p>Tasks Completed: 9 / 12</p>
+          <p>Quiz Score: 88%</p>
+          <p>Skill Level: Intermediate</p>
+        </div>
+        <!-- Add more cards as needed up to 20 -->
+      </div>
+    </section>
+
+    <section class="section" id="upload">
+      <h2>Upload New Module</h2>
+      <h3>Upload a training module (PDF, DOCX, or PPT)</h3>
+      <button>Choose File</button>
+      <button>Upload Module</button>
+    </section>
+
+    <section class="section" id="edit">
+      <h2>Edit Existing Module</h2>
+      <h3>Select a module to edit</h3>
+      <button>Edit Orientation Training</button>
+      <button>Edit Leadership Training</button>
+    </section>
+
+    <section class="section" id="certify">
+      <h2>Generate Certificate</h2>
+      <h3>Issue certificate based on skill level</h3>
+      <button>Generate for Aarav Khan</button>
+      <button>Generate for Meherun Nesa</button>
+    </section>
+  </main>
+</body>
+
+</html>
