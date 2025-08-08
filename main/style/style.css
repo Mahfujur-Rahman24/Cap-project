@@ -84,15 +84,15 @@ nav a:hover:not(.login-btn) {
 }
 
 .slide1 {
-    background-image: url('/images/pic2.jpg');
+    background-image: url('../../images/pic2.jpg');
 }
 
 .slide2 {
-    background-image: url('/images/pic3.jpg');
+    background-image: url('../../images/pic3.jpg');
 }
 
 .slide3 {
-    background-image: url('/images/pic3.png');
+    background-image: url('../../images/pic3.png');
 }
 
 @keyframes slide {
