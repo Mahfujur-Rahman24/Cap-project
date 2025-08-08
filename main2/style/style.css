@@ -63,6 +63,17 @@ body {
 .nav-links li a:hover {
   color: #d8dd3da9;
 }
+ nav ul li button{
+    padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #4167e6;
+      color: white;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: -10px;
+      cursor: pointer;
+    }
 
 /* Section Titles */
 .section-title {

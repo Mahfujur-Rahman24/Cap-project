@@ -18,6 +18,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: sticky;
     }
 
     .logo img {
@@ -31,7 +32,7 @@
     }
 
     nav ul li a:hover{
-      color: #0e8360;
+      color: #1bf707;
     }
 
     nav ul li a {
@@ -39,6 +40,18 @@
       text-decoration: none;
       font-weight: 500;
     }
+     nav ul li button{
+    padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #4167e6;
+      color: white;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: -10px;
+      cursor: pointer;
+    }
+
 
     main {
       padding: 40px;

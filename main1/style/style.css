@@ -10,7 +10,7 @@ body, html {
 }
 
 .container {
-  background: url('/images/depositphotos_325837802-stock-photo-man-writing-in-office-cloud.jpg') no-repeat center center/cover;
+  background: url('../../images/depositphotos_325837802-stock-photo-man-writing-in-office-cloud.jpg') no-repeat center center/cover;
   position: relative;
   height: 100%;
   display: flex;
